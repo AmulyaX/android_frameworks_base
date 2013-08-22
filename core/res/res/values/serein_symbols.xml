@@ -31,9 +31,8 @@
   <!-- Settings icon tint color -->
   <java-symbol type="color" name="settings_icon_tint_color" />
 
-  <!-- Button Brightness -->
-  <java-symbol type="integer" name="config_buttonBrightnessSettingMinimum" />
-  <java-symbol type="integer" name="config_buttonBrightnessSettingMaximum" />
+  <!-- Button backlight -->
   <java-symbol type="integer" name="config_buttonBrightnessSettingDefault" />
+  <java-symbol type="bool" name="config_deviceHasVariableButtonBrightness" />
 
 </resources>
