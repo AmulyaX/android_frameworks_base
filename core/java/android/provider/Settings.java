@@ -4133,6 +4133,12 @@ public final class Settings {
         public static final String NETWORK_TRAFFIC_STATE = "network_traffic_state";
 
         /**
+         * Whether to disable showing arrows in network traffic indicators
+         * @hide
+         */
+        public static final String NETWORK_TRAFFIC_HIDEARROW = "network_traffic_hidearrow";
+
+        /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
@@ -4308,20 +4314,11 @@ public final class Settings {
             // New private settings.
             PRIVATE_SETTINGS.add(BUTTON_BRIGHTNESS);
             PRIVATE_SETTINGS.add(BUTTON_BRIGHTNESS_ENABLED);
-        }
             PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_STATE);
             PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_TYPE);
-            PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD);	    
+            PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD);
+	    PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_HIDEARROW);
         }
-
-
-        /**
-         * Whether to display the torch option in the power menu
-         *
-         * @hide
-         */
-        public static final String POWERMENU_TORCH = "powermenu_torch";
->>>>>>> 5056ba74afe... Option for Up, Down as well for Network Traffic [1/2]
 
         /**
          * These are all public system settings
