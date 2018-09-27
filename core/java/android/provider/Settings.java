@@ -4557,7 +4557,6 @@ public final class Settings {
 	    OMNI_QS_QUICKBAR_COLUMNS,
             OMNI_QS_LAYOUT_ROWS_LANDSCAPE,
             OMNI_QS_QUICKBAR_COLUMNS,
-            OMNI_QS_PANEL_BG_ALPHA,
             STATUS_BAR_CLOCK,
             STATUSBAR_CLOCK_STYLE,
             STATUS_BAR_CLOCK_SECONDS,
