@@ -129,4 +129,12 @@
          (without "Focus" state) instead of Dual-stage. -->
     <bool name="config_singleStageCameraKey">false</bool>
 
+    <!-- Power menu -->
+    <string-array translatable="false" name="config_custom_globalActionsList">
+        <item>power</item>
+        <item>restart</item>
+        <item>advanced</item>
+        <item>screenshot</item>
+    </string-array>
+
 </resources>
