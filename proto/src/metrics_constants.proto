@@ -6121,6 +6121,6 @@ message MetricsEvent {
     // END OF AOSP CONSTANTS
 
     //SereinExtras
-    SEREIN  = 9999;
+    SEREINEXTRAS  = 9999;
   }
 }
