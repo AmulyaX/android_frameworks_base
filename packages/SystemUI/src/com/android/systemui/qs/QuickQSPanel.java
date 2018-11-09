@@ -323,7 +323,6 @@ public class QuickQSPanel extends QSPanel {
         public void updateSettings() {
         }
 
-        @Override
         public int getNumColumns() {
             return mPanel.getNumQuickTiles();
         }
