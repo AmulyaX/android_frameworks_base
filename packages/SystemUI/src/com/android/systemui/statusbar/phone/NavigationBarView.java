@@ -766,9 +766,8 @@ public class NavigationBarView extends FrameLayout implements PluginListener<Nav
                 showSwipeUpUI ? mQuickStepAccessibilityDelegate : null);
     }
 
-    private void updateSlippery() {
-        setSlippery(!isQuickStepSwipeUpEnabled() ||
-                (mPanelView != null && mPanelView.isFullyExpanded()));
+    public void updateSlippery() {
+        setSlippery(!isQuickStepSwipeUpEnabled() || mPanelView.isFullyExpanded());
     }
 
     private void setSlippery(boolean slippery) {
